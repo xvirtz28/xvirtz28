@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+  <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 22px, }
+    .bgimg {
+      background-position: center;
+      background-repeat: cover;
+      background-size: cover;
+      background-image: url('image/bg.jpg');
+      min-height: 100%;
+    }
+    </style>
+
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Cbastien Xyth Virtudazo Ebora</b></h1>
+    
+    
+  </header>
+
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="image/o.jpg" style="width:100%">
+        <img src="image/c.webp" style="width:100%">
+        <img src="image/z.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-full">
+        <img src="image/a.webp" style="width:40%">
+        <img src="image/s.webp" style="width:50%">
+        <img src="image/p.webp" style="width:50%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p> Welcome to everyone, <strong> I am Cbastien Xyth V. Ebora</strong>, and I'm thrilled to share with you my experiences and accomplishments in the information technology profession. Having obtained a Bachelor's degree in Information Technology, I have refined my abilities and knowledge across different fields. Project management has been one of my main areas of expertise. I've successfully led and 
+      completed many projects in this role, making sure they meet deadlines and surpass expectations.
+       Furthermore, my ability to write in Python has helped me create creative ideas and efficiently streamline procedures. 
+       I also have a strong eye for HTML site design and can create interfaces that are both aesthetically pleasing and easy to use. I aim to have a positive impact on the tech industry by my dedication and ongoing learning, and I eagerly anticipate the difficulties and new chances that lie ahead.
+        I appreciate you taking the time to read over my portfolio.</p>
+   <h1> My certificates</h1>
+    <p>1</p><br>
+   
+    <p>2.</p><br>
+    
+    <p>3</p><br>
+    
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bukidnon, Malaybalay city Purok 4 Brgy 7</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:+639267904698</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ccbastienxyth@mail.com</p>
+    </div>
+    <div>
+      <h3> For more information about me, you can download my Resume and Cv by clicking the button below.</h3>
+   <h1> <a href="file/My Cv.pdf" download="My Cv.pdf">Cv File</a>
+    <div>
+    <a href="file/My Resume.pdf" download="My Resume.pdf">Resume File</a>
+    </div>
+  </div>
+</h1>
+      </p>
+    </form>
+  </div>  
+  
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a   href="https://www.facebook.com/Basti.Ebora28/">  <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a   href="https://mail.google.com/mail/u/1/#inbox"><i class="fa fa-google w3-hover-opacity"></i></a>
+    <a   href="https://github.com/xvirtz28?tab=repositories"> <i class="fa fa-github w3-hover-opacity"></i></a>
+    
+
+  </footer>
+    
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
